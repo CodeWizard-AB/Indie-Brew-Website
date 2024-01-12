@@ -36,8 +36,12 @@ header {
 	padding: 4.8rem 0;
 }
 
+.banner_container figure {
+	transform: rotate(-1deg);
+}
+
 .banner_container__content {
-  max-width: 70rem;
+	max-width: 70rem;
 }
 
 .banner_container__content h1 {
@@ -94,32 +98,32 @@ header {
 
 footer {
 	background: #fdfcf9;
-  padding: 10rem 0 4rem;
+	padding: 10rem 0 4rem;
 }
 
 .footer_container {
 	display: grid;
 	grid-template-columns: 1.7fr repeat(4, 1fr);
-  justify-items: center;
+	justify-items: center;
 }
 
 .footer_container__content h3 {
-  font-size: 2rem;
-  font-weight: 900;
+	font-size: 2rem;
+	font-weight: 900;
 }
 
 .footer_container ul {
-  list-style: none;
+	list-style: none;
 }
 
-.footer_container ul h4{
-  font-size: 2rem;
-  font-weight: 900;
-  margin-bottom: 2rem;
+.footer_container ul h4 {
+	font-size: 2rem;
+	font-weight: 900;
+	margin-bottom: 2rem;
 }
 
 .footer_container ul li a {
-  font-size: 1.8rem;
-  display: inline-block;
-  margin-bottom: 1rem;  
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-bottom: 1rem;
 }
