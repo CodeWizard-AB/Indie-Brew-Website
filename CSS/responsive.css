@@ -53,6 +53,10 @@
 	.footer_container__content {
 		grid-column: auto / span 2;
 	}
+
+	.footer_container ul li a {
+		font-size: 1.6rem;
+	}
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -79,4 +83,8 @@
 	.footer_container__content {
 		grid-row: auto / span 2;
 	}
+
+	.footer_container ul li a {
+		font-size: 1.6rem;
+	} 
 }
