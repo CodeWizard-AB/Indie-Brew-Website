@@ -15,6 +15,7 @@
 		/>
 
 		<!-- ? CSS REFERENCE -->
+
 		<link rel="stylesheet" href="CSS/general.css" />
 		<link rel="stylesheet" href="CSS/style.css" />
 		<link rel="stylesheet" href="CSS/responsive.css" />
@@ -29,14 +30,16 @@
 				<figure>
 					<img src="Assets/Logo.svg" alt="Brand Logo" />
 				</figure>
+				<ul class="nav_container__links">
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Support</a></li>
+					<li>
+						<button class="cta--btn">
+							<a href="#">Get Started - it's free</a>
+						</button>
+					</li>
+				</ul>
 			</nav>
-			<ul>
-				<li><a href="">Pricing</a></li>
-				<li><a href="">Support</a></li>
-				<li>
-					<button><a href="">Get Started - it's free</a></button>
-				</li>
-			</ul>
 
 			<!-- * HEADER HERO BANNER SECTION -->
 
@@ -45,16 +48,21 @@
 
 				<div class="banner_container">
 					<div class="banner_container__content">
-						<h1>Your weekly personal feed digest</h1>
-						<p>
+						<h1>Your weekly personal feed digest.</h1>
+						<p class="content--summary">
 							With IndieBrew, get personal feeds from resources all around the
 							web, including Reddit, HackerNews, IndieHackers, and much more.
 						</p>
-						<button><a href="">Get Started - it's free</a></button>
+						<button class="cta--btn">
+							<a href="#">Get Started - it's free</a>
+						</button>
 						<figure>
 							<img src="Assets/User Avatars.svg" alt="" />
 						</figure>
-						<p>Join IndieBrewers in cutting their personal digest.</p>
+						<p>
+							Join <span class="content--highlight">32, 989</span> IndieBrewers
+							in cutting their personal digest.
+						</p>
 					</div>
 
 					<!-- * HERO BANNER MOCKUP -->
@@ -68,6 +76,40 @@
 
 		<!-- * MAIN SECTION -->
 
-		<main></main>
+		<main>
+			<section class="features">
+				<div class="features_container container">
+					<article>
+						<h2 class="secondary--heading">
+							Curate your feed from dozens of resources.
+						</h2>
+						<p class="content--summary">
+							We cover all major platforms where one could want to curate their
+							feed from Reddit, ProduectHunt, IndieHackers, and so much more.
+						</p>
+						<a href="#">See full list resources</a>
+					</article>
+					<figure>
+						<img src="Assets/Social Media Icons.png" alt="" />
+					</figure>
+					<figure>
+						<img src="Assets/Phone Mockup.png" alt="" />
+					</figure>
+					<article></article>
+				</div>
+			</section>
+		</main>
+
+		<!-- ? ICON REFERENCE -->
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+
 	</body>
 </html>
