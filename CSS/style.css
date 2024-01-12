@@ -61,7 +61,25 @@ header {
 /* * FEATURES SECTION */
 
 .features_container {
-	padding: 5rem 3.2rem;
+	padding: 9.6rem 3.2rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 10rem 0;
+}
+
+.features_container__buttons {
+	display: flex;
+	align-items: center;
+	color: var(--BUTTON-COLOR);
+	gap: 1rem;
+}
+
+.features_container figure {
+	width: 80%;
+}
+
+.features_container figure:nth-child(2) {
+	width: 70%;
+	justify-self: end;
 }
