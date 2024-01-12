@@ -1,3 +1,14 @@
+/* * SYLING SYSTEM */
+
+/*? --- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* ? --- 07 WHITESPACE
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
 /* * GENERAL STYLE RULES */
 
 * {
@@ -14,13 +25,13 @@ html {
 /* * COMMON STYLE RULES */
 
 button {
-  background: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
 .container {
-  max-width: 114rem;
-  margin: 0 auto;
+	max-width: 114rem;
+	margin: 0 auto;
 }
