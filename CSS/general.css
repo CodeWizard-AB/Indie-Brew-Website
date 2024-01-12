@@ -61,17 +61,6 @@ img {
 	margin: 2rem 0;
 }
 
-.cta--btn {
-	background: var(--BUTTON-BG);
-	padding: 1.5rem 2rem;
-	border-radius: 0.5rem;
-}
-
-.cta--btn a {
-  color: #fff;
-  font-size: 1.8rem;
-}
-
 .content--highlight {
 	color: var(--BUTTON-BG);
   font-weight: 700;
