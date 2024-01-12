@@ -2,7 +2,7 @@
 
 const navBtn = document.querySelector(".nav__menu");
 const headerEl = document.querySelector("header");
-const navContainer = document.querySelector(".navigation_container");
+const navContainer = document.querySelector(".navigation_section");
 
 // ? FUNCTION -
 
