@@ -1,9 +1,26 @@
+/* * GENERAL STYLE RULES */
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
+	font-family: "DM Sans", sans-serif;
+}
+
+/* * COMMON STYLE RULES */
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
 }
