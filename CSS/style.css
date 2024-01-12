@@ -83,3 +83,39 @@ header {
 	width: 70%;
 	justify-self: end;
 }
+
+/* ******************* */
+/* ? FOOTER SECTION */
+/* ******************* */
+
+footer {
+	background: #fdfcf9;
+	padding: 10rem 0 4rem;
+}
+
+.footer_container {
+	display: grid;
+	grid-template-columns: 1.7fr repeat(4, 1fr);
+  justify-items: center;
+}
+
+.footer_container__content h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.footer_container ul {
+  list-style: none;
+}
+
+.footer_container ul h4{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.footer_container ul li a {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 1rem;  
+}
