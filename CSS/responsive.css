@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  html {
+    font-size: 56.25%;
+  }
+
 	.nav_container__links {
 		display: none;
 	}
@@ -22,6 +26,10 @@
 		font-size: 4.8rem;
     width: auto;
 	}
+
+  .banner_container__content figure {
+    width: 60%;
+  }
 
   .features_container {
     grid-template-columns: 1fr;
