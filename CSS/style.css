@@ -28,6 +28,19 @@ header {
 	color: var(--FONT-COLOR);
 }
 
+/* * NAV STICKY */
+
+.sticky--nav {
+	z-index: 5;
+	position: fixed;
+	left: 0;
+	right: 0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.287);
+	background: #fdfcf997;
+	backdrop-filter: blur(10px);
+	padding: 2rem 19rem;
+}
+
 /* ? HEADER HERO BANNER */
 
 .banner_container {
