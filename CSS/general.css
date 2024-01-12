@@ -20,6 +20,7 @@
 :root {
 	--FONT-COLOR: #212529;
 	--BUTTON-BG: #664efc;
+	--HERO-BG: #fdfcf9;
 }
 
 html {
@@ -63,21 +64,21 @@ img {
 
 .content--highlight {
 	color: var(--BUTTON-BG);
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .secondary--heading {
-  font-size: 3.6rem;
-  font-weight: 700;
-  line-height: 1.5;
+	font-size: 3.6rem;
+	font-weight: 700;
+	line-height: 1.5;
 }
 
 .btn--link {
-  font-size: 1.6rem;
-  color: var(--BUTTON-BG);
-  font-weight: 600;
+	font-size: 1.6rem;
+	color: var(--BUTTON-BG);
+	font-weight: 600;
 }
 
 .nav__menu {
-  display: none;
+	display: none;
 }

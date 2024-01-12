@@ -3,7 +3,7 @@
 /* ******************* */
 
 header {
-	background: #fdfcf9;
+	background: var(--HERO-BG);
 }
 
 /* ? HEADER NAVIGATION */
@@ -73,6 +73,10 @@ header {
 	font-size: 1.8rem;
 }
 
+ion-icon[name="close"] {
+	display: none;
+}
+
 /* ******************* */
 /* ? MAIN SECTION */
 /* ******************* */
@@ -108,7 +112,7 @@ header {
 /* ******************* */
 
 footer {
-	background: #fdfcf9;
+	background: var(--HERO-BG);
 	padding: 10rem 0 4rem;
 }
 
