@@ -1,9 +1,4 @@
 /* * MOBILE DEVICE */
-
-.hide {
-	display: none;
-}
-
 @media screen and (max-width: 576px) {
 	.nav__menu {
 		display: block;
@@ -19,14 +14,15 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		bottom: 0;
 		width: 100%;
-		height: 100vh;
 		justify-content: center;
+		align-items: center;
 		backdrop-filter: blur(10px);
 		transform: translateX(100%);
 		transition: all 0.5s linear;
 		opacity: 1;
-		/* visibility	: hidden; */
+		visibility: hidden;
 	}
 
 	.nav--open ion-icon[name="close"] {
@@ -39,7 +35,8 @@
 
 	.nav--open .nav_container__links {
 		opacity: 1;
-		transform: translate(0);
+		transform: translateX(0);
+		visibility: visible;
 	}
 
 	.nav_container__links a:not(.nav_container__links li:last-child a) {
